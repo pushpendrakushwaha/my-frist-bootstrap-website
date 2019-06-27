@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		<!--font-awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+	</head>
+	<body >
+	
+	<header>
+		<!--nav-bar starts-->
+		<div class="container" id="main">
+			<div class="navbar navbar-fixed-top" id="nav-color">
+				
+				<!--responsive nav-bar collaspe-->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+
+				<div class="container nav-margin">
+					<a class="navbar-brand" href="/.." ><img src="./images/cric-out-logo-canvas.png" alt="cricbuzz-logo"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse" id="nav-bar">
+						<ul class="nav navbar-nav">
+							<li class="active ">
+								<a href="#"><strong>Home</strong></a>
+							</li>
+
+							<li>
+								<a href="#"><strong>Live Score</strong></a>
+							</li>
+							<li>
+								<a href="#"><strong>Results</strong></a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Ranking</strong><strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li><a href="#">One-day Ranking</a></li>
+									<li><a href="#">Test Ranking</a></li>
+
+									<li><a href="#">T20 Ranking</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header">More...</li>
+									<li><a href="#">Men's Ranking</a></li>
+									<li><a href="#">Women's Ranking</a></li>
+
+								</ul>
+							</li>
+
+						</ul>
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search here..."  id="search-icon">
+							<button type="submit" class="btn btn-defult"><span class="glyphicon glyphicon-search"></span> </button>
+						</form>
+
+						<ul class="nav navbar pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Setting</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-user" ></span> My profile</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-shopping-cart" ></span> cart</a></li>
+									<li class="divider"></li>
+									<li><a href="#"><span class="glyphicon glyphicon-off" ></span> Sign_out</a></li>
+
+								</ul>
+							</li>
+
+						</ul><!--end navbar pull=right-->
+
+					</div><!--end nav-collapse collapse navbar-responsive-collapse -->
+
+				</div><!--end nav-margin-->
+
+			</div><!--end nav nav-bar fixed-top-->
+		</div><!--end cotainer-->
+	</header>
+
+	<!--tab opens-->
+	<ul class="nav nav-tabs my-tabs">
+		<li class="active"><a href="#">Gallery...</a></li>
+		<li><a href="#">News</a></li>
+		<li><a href="#">Menu 2</a></li>
+		<li><a href="#">Menu 3</a></li>
+	</ul><!--end nav tab-->
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+			  
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner carousel-allign">
+				  <div class="item active">
+					<img src="./images/sachin.jpg" alt="Thank-you-sachin">
+				  </div>
+			  
+				  <div class="item">
+					<img src="./images/dhoni.jpg" alt="Captain-cool">
+				  </div>
+			  
+				  <div class="item">
+					<img src="./images/ball-with-bails.jpg" alt="Ball-with-bails">
+				  </div>
+				</div>
+			  
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				  <span class="glyphicon glyphicon-chevron-left"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				  <span class="glyphicon glyphicon-chevron-right"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+	</div><!--end my-carousel my-carousal-slide-->
+
+
+	<!--body container-->		  
+	<div class="container" id="my-contains">
+		<div class="row my-image-width" >
+			<div class="col-sm-2">
+				<h2>Schedule</h2>
+
+				<ul class="list-group">
+					<li class="list-group-item">
+						<p>Bangladesh vs Afghanistan, Match 31 Mon Jun 24 • 3:00 PM GMT </p>
+						<a class="btn btn-primary btn-xs" href="#" role="button">Go...</a>
+					</li>
+					
+					<li class="list-group-item">
+						<p>England vs Australia, Match 32 Tue Jun 25 • 3:00 PM GMT </p>
+						<a class="btn btn-primary btn-xs" href="#" role="button">Go...</a>
+					</li>
+
+					<li class="list-group-item">
+						<p>Malaysia vs Maldives, 2nd Match Tue Jun 25 • 7:30 AM GMT</p>
+						<a class="btn btn-primary btn-xs" href="#" role="button">Go...</a>
+					</li>
+
+					<li class="list-group-item">
+						<p>Netherlands vs Zimbabwe, 2nd T20I Tue Jun 25 • 9:00 PM GMT</p>
+						<a class="btn btn-primary btn-xs" href="#" role="button">Go...</a>
+					</li>
+
+					<li class="list-group-item">
+						<p>New Zealand vs Pakistan, Match 33 Wed Jun 26 • 3:00 PM GMT </p>
+						<a class="btn btn-primary btn-xs" href="#" role="button">Go...</a>
+					</li>
+				</ul>
+			</div><!--end col-sm-2-->
+
+
+			<div class="col-sm-7" class="list-group">
+				<h2><strong>Todays News</strong></h2>
+
+					<div class="list-group-item">
+			
+						<img src="./images/world-cup-pulse.webp" alt="World Cup Pulse">
+					    <h1><a href="#">World Cup Pulse</a></h1>
+						<p>All that's happening on and off the field at the 2019 World Cup in England & Wales</p><br>
+
+					</div><!--end list-group-item-1-->
+
+					<div class="list-group-item">					
+
+						<img src="./images/a-masterpiece-a-name-remembe.webp" alt="A masterpiece, a name remembered, but a dream diminished">
+
+						<h1><a href="#"> A masterpiece, a name remembered, but a dream diminished </a></h1>
+			   			<p>His first 27 deliveries yielded just 17 runs; his plan was clear: take the game deep and see what happens. He finished with a century, but fell just short in the end!...</p>
+						<p>
+						<a href="#">Brathwaite special in vain as New Zealand seal thriller</a><br>
+						<a href="#">Brathwaite was 'pretty exceptional', says Boult</a><br>
+						<a href="#">Holder lauds Brathwaite, lower order for tough fight</a><br>
+						<a href="#">Thought the last hit had enough bat on it: Brathwaite</a><br>
+						</p><br>
+
+					</div><!--list-group-item 2-->
+
+					<div class="list-group-item">
+						<img src="./images/south-africa-no-longer-hold-a.webp" alt="South Africa no longer hold a strong hand of cards">
+						<h1><a href="#">South Africa no longer hold a strong hand of cards</a></h1>
+						<p>
+								The collage of their World Cup exits has become iconic, each image telling its own different story of heartbreak in a unique way.
+						</p>
+				
+							<p>
+								<a href="#">Haris Sohail lays ghosts of past to rest, earns acceptance</a><br>
+								<a href="#">Tried to stop Rabada from going to the IPL: Faf du Plessis</a><br>
+								<a href="#">"Sarfaraz we are sorry" - Pakistan fans, team, look at forgetting the last week</a><br>
+								<a href="#">All-round Pakistan end South Africa's 2019 World Cup</a><br>
+							</p>
+
+					</div><!--end list-group-item 3-->
+
+			</div><!--end list-group col-sm-7-->
+
+
+			<div class="col-sm-3">
+
+						<h2><strong>FEATURED VIDEOS</strong></h2>
+				
+						<ul class="list-group">
+				
+							<li class="list-group-item list-group-item-padding">
+									<video controls>
+											<source src="movie.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+									</video>
+									<a href="#">New Zealand v Pakistan, Match 33: Preview... 12h ago
+									</a>
+							</li>
+							<li class="list-group-item">
+									<video controls>
+											<source src="movie.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+									</video>
+									<a href="#">Every game is like a final for us - Azhar Mahmood
+											11h ago</a>
+				
+							</li>
+							<li class="list-group-item">
+									<video controls>
+											<source src="movie.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+									</video>
+									<a href="#">Semifinal chances are in our hands - Eoin Morgan
+											9h ago</a>
+				
+							</li>
+							<li class="list-group-item">
+									<video controls>
+											<source src="movie.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+									</video>
+									<a href="#">Australia and India are now title favourites - Damien Fleming
+											9h ago</a>
+				
+							</li>
+							<li class="list-group-item">
+									<video controls>
+											<source src="movie.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+									</video>
+									<a href="#">Cricbuzz LIVE: Match 28, India v Afghanistan, Post-match show
+											Jun 22 2019</a>
+							</li>
+				
+						</ul>
+				
+							
+			</div><!--end col-sm-3-->
+		</div><!--end row-->
+	</div><!--end container-->
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	<footer >
+		<div class="container my-footer-container">
+			<div class="row my-footer-rows">
+				<div class="col-sm-3" id="my-footer-col-sm-4-img">
+					<img src="./images/cric-out-logo-canvas.png" alt="cric-out">
+
+
+					
+					
+				</div>
+
+				<div class="col-sm-3 ">
+					<ul class="resize-done">
+						<h4>DOWNLOAD MOBILE APP</h4>
+						<li><img src="./icons/android-brands.svg" alt="androids"> Android</li>
+						<li><img src="./icons/apple-brands.svg" alt="ios"> IOS</li>
+						<li><img src="./icons/windows-brands.svg" alt="windows"> Windows</li>
+					</ul>
+
+					
+				</div>
+
+				<div class="col-sm-3">
+					<ul class="resize-done">
+						<h4>FOLLOW US ON</h4>
+						<li><img src="./icons/facebook-square-brands.svg" alt="facebook"> Facebook</li>
+						<li><img src="./icons/twitter-square-brands.svg" alt="twitter"> Twitter</li>
+						<li><img src="./icons/instagram-brands.svg" alt="instagram"> Instagram</li>
+						<li><img src="./icons/pinterest-brands.svg" alt="pinterest"> Pinterest</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-3">
+					<ul class="resize-done">
+						<h4>COMPANY</h4>
+						<li>Careers</li>
+						<li>Advertise</li>
+						<li>Privacy Policy</li>
+						<li>Terms of Use</li>
+						<li>Cricbuzz TV Ads</li>
+					</ul>
+					
+				</div>
+
+	
+	
+	
+	
+
+					
+
+			</div>
+
+		</div><!--end container-->
+		
+			<p id="copyright-allign">
+				@ 2019 Copyright | All right reserved | cricout.com</p>	
+	</footer>
+	
+	</body>
+</html>
+

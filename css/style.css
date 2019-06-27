@@ -1,0 +1,25 @@
+#my {
+	padding: 100px;
+	background: pink;
+	margin-right: 400;
+	margin-left: 300;
+}
+		#web {
+			color: red;
+		}
+		#chess {
+			color: pink;
+		}
+		#read {
+			color: green;
+		}
+		#learn {
+			color: blue;
+		}
+#first {
+	border: 1px solid white;
+}
+
+#second {
+	border: 1px solid white;
+}
